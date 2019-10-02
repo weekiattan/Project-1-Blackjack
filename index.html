@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+     <h1>BlackJack</h1>
+
+</head>
+<body>
+
+    <div class = "container-fluid">
+
+        <input type = "button" class="btn" id ="btnStart" value="start" onclick="this.style.visibility='hidden';startBlackJack()"/>
+
+        <input type="button" class="btn" value="hit" onclick="hitPlayer()">
+
+        <input type="button" class="btn" value="stay" onclick="stay(); end()">
+
+        <input type="button" class="btn" value="restart" onclick="restart()">
+
+        <div class = "status" id = "status"></div>
+
+
+        <div id = "players" class = "players"></div>
+
+        <div id='deckcount'>52</div>
+
+
+        <button type="button" class="w3-btn w3-theme-d1 w3-margin-bottom"
+
+        <div id = "p">
+            <p>The objective is to get a hand total of closer to 21 than the other player without going over 21 (busting).At the start of a Blackjack game, the players receive two cards each. The players' cards are  dealt face up.The best possible Blackjack hand is an opening deal of an ace with any ten-point card.Players must have a minimum hand of 15 and more.In this modified version of blackjack.The card value of ACE can only be 11 instead of 1 or 11! </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+<script type="text/javascript" script src = "script.js"></script>
+</html>

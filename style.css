@@ -1,0 +1,57 @@
+h1{
+	text-align: center;
+	font-size: 100px;
+}
+
+body{
+	background-color: #019420;
+}
+
+.player{
+    width:200px;
+    text-align: center;
+    font-size:30px;
+    border-radius: 5px;
+      display: inline-block;
+      padding-right: 30px;
+
+}
+
+.points{
+	border:solid 2px black;
+	background-color:#6fa126;
+	border-radius:50px;
+}
+
+
+.card{
+	margin-left: 10px;
+ width:50px;
+ height:82px;
+text-align: center;
+margin-bottom: 20px;
+border:solid 2px black;
+display:inline-block;
+
+
+}
+
+#deckcount{
+	font-size:30px;
+	font-weight: bold;
+	padding-left: 20px;
+	color:maroon;
+
+}
+
+.status{
+	font-size:30px;
+	font-weight: bolder;
+	display:inline-block;
+	margin-left:20px;
+	color:maroon;
+}
+
+.btn{
+	border: solid 5px black;
+}
